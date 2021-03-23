@@ -1,10 +1,3 @@
----
-title: 2021-03-23未命名文件 
-tags: 新建,模板,小书匠
-category: /小书匠/日记/2021-03
-renderNumberedHeading: true
-grammar_cjkRuby: true
----
 
 
 # GA-ICDNet
@@ -31,7 +24,7 @@ You should download the  [OU-LP-Bag dataset](http://www.am.sanken.osaka-u.ac.jp/
 	/id_list.csv
 ```
 
-## usage
+## Usage
 
 You should have at last one GPU(memory>=10240M).
 ``` shell
