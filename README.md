@@ -1,1 +1,50 @@
+---
+title: 2021-03-23未命名文件 
+tags: 新建,模板,小书匠
+category: /小书匠/日记/2021-03
+renderNumberedHeading: true
+grammar_cjkRuby: true
+---
+
+
 # GA-ICDNet
+
+The codes for the paper "Semantically-Guided Disentangled Representation for Robust Gait Recognition".
+
+![network](./imgs/network.png)
+
+## Requirements
+
+``` lsl
+python >=3.6
+pytorch >=0.4
+Pillow  >=7.1.2
+tensorboardX >=1.9
+faiss >=1.6
+```
+## Data managerment
+You should download the  [OU-LP-Bag dataset](http://www.am.sanken.osaka-u.ac.jp/BiometricDB/GaitLPBag.html) first and manager the files as :
+
+``` javascript
+./GA-ICDNet
+	/dataset_GEI/	
+	/id_list.csv
+```
+
+## usage
+
+You should have at last one GPU(memory>=10240M).
+``` shell
+python main.py
+```
+
+## Main Results
+
+![enter description here](./imgs/resulits.png)
+
+## Citation
+Please cite these papers in your publications if it helps your research:
+
+``` javascript
+To be continued.
+```
