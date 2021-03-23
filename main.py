@@ -64,7 +64,7 @@ def main():
     device = torch.device('cuda')
 
     print("Initializing dataset")
-    dataset = data_manager.init_dataset('../imdb/dataset_GEI','id_list.csv',args.cooperative)
+    dataset = data_manager.init_dataset('./dataset_GEI','id_list.csv',args.cooperative)
 
     transform = transforms.Compose([
         transforms.RandomAffine(degrees=0, translate=(0.05, 0.02)),
