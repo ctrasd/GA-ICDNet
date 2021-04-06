@@ -39,5 +39,10 @@ python main.py
 Please cite these papers in your publications if it helps your research:
 
 ``` javascript
-To be continued.
+@inproceedings{chai2021semi,
+  author = {Tianrui Chai, Xinyu Mei, Annan Li, Yunhong Wang},
+  booktitle = {ICME},
+  title = {Semantically-Guided Disentangled Representation for Robust Gait Recognition},
+  year = {2021}
+}
 ```
