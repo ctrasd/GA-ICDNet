@@ -38,7 +38,7 @@ python main.py
 ## Citation
 Please cite these papers in your publications if it helps your research:
 
-``` javascript
+``` 
 @inproceedings{chai2021semi,
   author = {Tianrui Chai, Xinyu Mei, Annan Li, Yunhong Wang},
   booktitle = {ICME},
